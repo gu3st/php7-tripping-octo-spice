@@ -1,5 +1,5 @@
 <?php
-return function() {
+return function(...$args) {
     return new class {
 
         public function __construct($a = "a",$b = "b"){
@@ -23,5 +23,5 @@ return function() {
         }
 
 
-    }(...func_get_args());
+    }(...$args);
 };
