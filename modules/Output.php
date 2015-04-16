@@ -1,6 +1,6 @@
 <?php
 return function(...$args) {
-    return new class {
+    return new class(...$args) {
 
         public function __construct($a = "a",$b = "b"){
             echo "A : " . $a;
@@ -23,5 +23,5 @@ return function(...$args) {
         }
 
 
-    }(...$args);
+    };
 };
