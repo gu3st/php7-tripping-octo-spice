@@ -5,4 +5,4 @@ $output = $demand("Output");
 
 $x = $output("Z",'Y');
 
-$output->Whisper("I DON'T KNOW WHAT WE'RE YELLING ABOUT" . PHP_EOL);
+$x->Whisper("I DON'T KNOW WHAT WE'RE YELLING ABOUT" . PHP_EOL);
