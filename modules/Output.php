@@ -1,5 +1,5 @@
 <?php
-return class{
+$x = class{
 
     public function Out($value){
         echo $value;
@@ -14,3 +14,5 @@ return class{
     }
 
 };
+
+return $x;
