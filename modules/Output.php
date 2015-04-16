@@ -1,5 +1,5 @@
 <?php
-return class{
+return new class{
 
     public function Out($value){
         echo $value;
