@@ -13,4 +13,4 @@ return class{
         echo strtolower($value);
     }
 
-}
+};
