@@ -1,6 +1,6 @@
 <?php
-return function($arguments) {
-    return call_user_func_array(class {
+return function() {
+    return new class {
 
         public function __construct($a = "a",$b = "b"){
             echo "A : " . $a;
@@ -23,5 +23,5 @@ return function($arguments) {
         }
 
 
-    }, func_get_args());
+    }(...func_get_args());
 };
